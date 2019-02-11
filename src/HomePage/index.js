@@ -4,7 +4,8 @@ import help from "./help.jpg";
 import { Link } from "react-router-dom";
 
 export const HomePage = () => (
-  <div className={styles.a}>
+  <div>
+    <div className={styles.a} />
     <div className={styles.b} />
     <div className={styles.c}>Simon</div>
     <div className={styles.d} />
