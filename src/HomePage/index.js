@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.scss";
-import help from "./help.jpg";
+import clothes from "./clothes.webp";
 import { Link } from "react-router-dom";
 
 export const HomePage = () => (
@@ -111,16 +111,18 @@ export const HomePage = () => (
     <div
       className={styles.Picture}
       style={{
-        background: `url(${help})`,
+        background: `url(${clothes})`,
         backgroundSize: "cover"
       }}
     >
       <a
-        href="http://www.helpfound.com"
+        href="https://makethread.herokuapp.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p>I run helpfound.com, a marketplace for psychotherapy services.</p>
+        <p>
+          I'm currently building makethread.com, a social fashion marketplace.
+        </p>
       </a>
     </div>
     <div className={styles.Picture}>
